@@ -135,7 +135,7 @@ final class DictCombineTest extends HackTest {
           dict['a' => 'pear', 'b' => 'strawberry', 'c' => 'cherry'],
           darray['c' => 'chocolat']
         ],
-        dict[ 'a' => 'apple', 'b' => 'banana', 'c' => 'cherry']
+        dict['a' => 'apple', 'b' => 'banana', 'c' => 'cherry']
       ),
       tuple(
         vec[
@@ -143,7 +143,7 @@ final class DictCombineTest extends HackTest {
           Map {'a' => 'apple', 'b' => 'banana'},
           darray['c' => 'chocolat']
         ],
-        dict[ 'a' => 'pear', 'b' => 'strawberry', 'c' => 'cherry']
+        dict['a' => 'pear', 'b' => 'strawberry', 'c' => 'cherry']
       ),
       tuple(
         vec[
@@ -151,7 +151,7 @@ final class DictCombineTest extends HackTest {
           dict['a' => 'pear', 'b' => 'strawberry', 'c' => 'cherry'],
           Map {'a' => 'apple', 'b' => 'banana'},
         ],
-        dict[ 'a' => 'pear', 'b' => 'strawberry', 'c' => 'chocolat']
+        dict['c' => 'chocolat', 'a' => 'pear', 'b' => 'strawberry']
       ),
     ];
   }
